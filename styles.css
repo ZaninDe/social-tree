@@ -1,0 +1,41 @@
+* {
+  background-color: background: rgba(187, 153, 221, 0.08);;
+  font-family: 'Roboto', sans-serif;
+}
+
+#avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(./images/avatar.jpeg);
+  background-size: cover;
+  position: center;
+}
+
+.elipse2 {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  border: 2px solid #bb99dd;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  width: 326px;
+  height: 49px;
+  border: solid 1px #bb99dd;
+  margin: 16px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards a {
+  text-decoration: none;
+  color: #bb99dd;
+  text-transform: uppercase;
+}
