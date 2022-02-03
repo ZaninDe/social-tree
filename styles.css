@@ -1,6 +1,10 @@
 * {
-  background: rgba(187, 153, 221, 0.08);
+  background: #121214;
   font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --purple: #6e78ff;
 }
 
 #avatar {
@@ -16,7 +20,7 @@
   width: 210px;
   height: 210px;
   border-radius: 50%;
-  border: 2px solid #bb99dd;
+  border: 2px solid var(--purple);
   margin: 100px auto 5px;
   display: flex;
   justify-content: center;
@@ -26,7 +30,7 @@
 .cards {
   width: 326px;
   height: 49px;
-  border: solid 1px #bb99dd;
+  border: solid 1px var(--purple);
   margin: 16px auto;
 
   display: flex;
@@ -34,10 +38,15 @@
   justify-content: center;
 }
 
+.cards:hover {
+  background-color: white;
+}
+
 .cards a {
   text-decoration: none;
-  color: #bb99dd;
+  color: var(--purple);
   text-transform: uppercase;
+  padding: 10px 119px;
 }
 
 p {
@@ -46,10 +55,17 @@ p {
   justify-content: center;
   font-size: 900;
   background: none;
-  color: #BB99DD
+  color: var(--purple)
 }
 
-.icons {
-  width:40px;
-  height: 40px;
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.social-icons a{
+  margin: 10px;
+  text-decoration: none;
 }
