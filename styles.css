@@ -36,17 +36,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: border-color 0.5s;
 }
 
 .cards:hover {
-  background-color: white;
+  border-color: white;
 }
 
 .cards a {
   text-decoration: none;
   color: var(--purple);
   text-transform: uppercase;
-  padding: 10px 119px;
+  padding: 10px 70px;
 }
 
 p {
@@ -68,4 +70,8 @@ p {
 .social-icons a{
   margin: 10px;
   text-decoration: none;
+}
+
+.footer {
+  margin-top: 60px;
 }
