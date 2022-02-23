@@ -33,7 +33,7 @@ This project was developed with the following technologies:
 
 This application help you to know a little bit about the developer perfil
 
-## :clound Deploy
+## ☁️ Deploy
 
 You can see the deploied version [here](https://social-presentation.herokuapp.com/).
 
