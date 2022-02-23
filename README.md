@@ -33,15 +33,15 @@ This project was developed with the following technologies:
 
 This application help you to know a little bit about the developer perfil
 
-## 🔖 Layout
+## :clound Deploy
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/s4fytPFbDiSkv4GPSfKaLE/Jobs-Planning). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+You can see the deploied version [here](https://social-presentation.herokuapp.com/).
 
-## :memo: Licença
+## :memo: Licence
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
+This project have MIT licence. See the file [LICENSE](.github/LICENSE.md) to more details.
 
 ---
 
-Feito com ♥ by ZaninDe
-# Discover2
+built with ♥ by ZaninDe
+
